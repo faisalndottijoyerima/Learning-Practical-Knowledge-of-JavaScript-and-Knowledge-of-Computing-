@@ -9,5 +9,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisalndottijoyerima/Learning-Practical-Knowledge-of-JavaScript-and-Knowledge-of-Computing-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/faisalndottijoyerima/Learning-Practical-Knowledge-of-JavaScript-and-Knowledge-of-Computing-/issues"
+  },
+  "homepage": "https://github.com/faisalndottijoyerima/Learning-Practical-Knowledge-of-JavaScript-and-Knowledge-of-Computing-#readme"
 }
