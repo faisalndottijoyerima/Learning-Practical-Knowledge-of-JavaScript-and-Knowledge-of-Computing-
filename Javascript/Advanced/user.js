@@ -1,0 +1,8 @@
+//user.js Default export
+export default class User {
+constructor(name){
+    this.name = name;
+}
+
+}
+
