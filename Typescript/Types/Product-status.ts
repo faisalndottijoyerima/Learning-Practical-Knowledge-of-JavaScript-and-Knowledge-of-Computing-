@@ -56,7 +56,7 @@ function isInProgress(cart: Cart): boolean {
 
 // Simulate moving an order through all stages
 function advanceStatus(cart: Cart): Cart {
-  const flow: Record<string, Status> = {
+  const flow: Record<Status, Status> = {
     pending:   "shipped",
     shipped:   "delivered",
     delivered: "delivered",   // already at final stage
