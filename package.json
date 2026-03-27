@@ -5,6 +5,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "node dist/Types/Add-type.js",
+    "dev": "npx ts-node ./Typescript/Types/Add-type.ts",
+    "run:saving": "npx ts-node ./Typescript/Types/Saving-acc.ts",
+    "run:saving:dist": "npm run build && node dist/Types/Saving-acc.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/faisalndottijoyerima/Learning-Practical-Knowledge-of-JavaScript-and-Knowledge-of-Computing-/issues"
   },
-  "homepage": "https://github.com/faisalndottijoyerima/Learning-Practical-Knowledge-of-JavaScript-and-Knowledge-of-Computing-#readme"
+  "homepage": "https://github.com/faisalndottijoyerima/Learning-Practical-Knowledge-of-JavaScript-and-Knowledge-of-Computing-#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
 }
